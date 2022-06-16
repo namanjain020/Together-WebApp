@@ -1,0 +1,19 @@
+{
+  "name": "together-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lobby.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namanjain020/Together-WebApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namanjain020/Together-WebApp/issues"
+  },
+  "homepage": "https://github.com/namanjain020/Together-WebApp#readme"
+}
