@@ -1,5 +1,4 @@
 const express = require("express");
-
 const app = express();
 
 const server = require("http").Server(app);
@@ -10,15 +9,9 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + "/lobby.html");
 });
 
-// app.get("/about", function (req, res) {
-//   res.send("<h1>shinji Ikari</h1> <p>EVA 01 Pilot</p> <p>Crybaby 4 lyf.</p>");
-// });
+const PORT =process.env.PORT || 2000;
 
-// app.get("/EVA", function (req, res) {
-//   res.send("Hello i am evangelion!");
-// });
-
-app.listen(2000, function () {
+app.listen(PORT, function () {
   console.log("You have connected to server 2000");
 });
 
