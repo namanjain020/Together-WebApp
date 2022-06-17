@@ -2,7 +2,7 @@
   "name": "together-web-app",
   "version": "1.0.0",
   "description": "",
-  "main": "lobby.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/namanjain020/Together-WebApp/issues"
   },
-  "homepage": "https://github.com/namanjain020/Together-WebApp#readme"
+  "homepage": "https://github.com/namanjain020/Together-WebApp#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node": "^17.7.2"
+  }
 }
